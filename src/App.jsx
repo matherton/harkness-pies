@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import People from "./components/People";
 import HockeyTeamList from "./components/HockyTeam";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           </div>
           <div>09</div>
         </div>
+        <Footer />
       </div>
     </>
   );
