@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 px-4 sm:px-0 lg:px-8">
-        <h1 className="text-3xl font-bold text-gray-900">harkness-pies</h1>
+        <h1 className="text-3xl text-center font-bold text-gray-900">
+          harkness-pies
+        </h1>
         <div className="grid grid-cols-4 gap-4">
           <div>
             <People />
