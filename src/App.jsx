@@ -10,7 +10,7 @@ function App() {
         <h1 className="text-3xl text-center font-bold text-gray-900">
           harkness-pies
         </h1>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4 pt-10 pl-10 pr-10">
           <div>
             <People />
           </div>
