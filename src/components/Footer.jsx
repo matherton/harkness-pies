@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-400 grid grid-cols-1 gap-4 text-center">
+    <footer className="bg-slate-100 grid grid-cols-1 gap-4 text-center">
       30b Raeburn Place
       <br /> Edinburgh <br />
       EH4 1HN

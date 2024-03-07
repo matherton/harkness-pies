@@ -1,1 +1,12 @@
+/* Tailwind overwrites for header */
+header section {
+  display: flex;
+}
+h1 sup {
+  font-size: 1rem;
+  vertical-align: super;
+}
 
+h1 sup span {
+  margin: 0 0.5rem;
+}
