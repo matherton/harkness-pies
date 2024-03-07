@@ -11,3 +11,8 @@ h1 sup span {
   margin: 0 0.25rem;
   vertical-align: super;
 }
+
+#menu {
+  margin-top: -1rem;
+  min-width: 130px;
+}
