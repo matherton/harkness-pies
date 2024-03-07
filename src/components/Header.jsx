@@ -14,7 +14,7 @@ export default function Header() {
           <h1 className="text-2xl lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
             Harkness Pies
             <br />
-            <sup>
+            <sup className="text-xs">
               <span>organic</span> <span>outdoor-reared</span>
               <span>hot-water crust</span> <span>all handmade</span>
             </sup>
