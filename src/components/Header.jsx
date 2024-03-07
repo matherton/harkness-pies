@@ -6,11 +6,11 @@ export default function Header() {
   return (
     <>
       <header className="bg-slate-50 grid grid-cols-3 gap-4 pl-10 pr-10">
-        <section className="columns-2xs text-white ">
+        <section className="text-white flex-1">
           <img src={Pie} />
         </section>
 
-        <section>
+        <section className="flex-grow">
           <h1 className="text-2xl lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
             Harkness Pies
             <br />
@@ -21,7 +21,7 @@ export default function Header() {
           </h1>
         </section>
 
-        <section className="columns-2xs text-white">
+        <section className="text-white flex-1">
           <img
             src={Insta}
             alt="Istagram icon"
