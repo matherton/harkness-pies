@@ -1,6 +1,6 @@
 import React from "react";
 
-import Insta from "../assets/intsa-icon.svg";
+import Insta from "../assets/insta-icon.svg";
 import ToggleNav from "./Toggle";
 export default function Header() {
   return (

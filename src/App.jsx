@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import People from "./components/People";
 import HockeyTeamList from "./components/HockyTeam";
 import Footer from "./components/Footer";
+import ToggleNav from "./components/Toggle";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
           </div>
           <div>02</div>
           <div>03</div>
-          <div>04</div>
+          <div>
+            <ToggleNav />
+          </div>
           <div>05</div>
           <div>06</div>
           <div>07</div>
