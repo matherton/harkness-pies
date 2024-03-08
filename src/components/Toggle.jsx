@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import Pie from "../assets/pie-click-here.jpg";
 const ToggleNav = () => {
@@ -18,8 +19,12 @@ const ToggleNav = () => {
         } transition-all ease-in-out duration-500 overflow-hidden block absolute top-[120px] z-50`}
       >
         <ul className="bg-white pl-5 text-black" style={{ width: "135px" }}>
-          <li>Products</li>
-          <li>Values</li>
+          <li>
+            <Link to="/harkness-pies/products">Products</Link>
+          </li>
+          <li>
+            <Link to="/harkness-pies/value">Values</Link>
+          </li>
           <li>About</li>
         </ul>
       </div>

@@ -1,19 +1,28 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import "./App.css";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
-import People from "./components/People";
-import HockeyTeamList from "./components/HockyTeam";
 import Footer from "./components/Footer";
-import ToggleNav from "./components/Toggle";
+import HockeyTeamList from "./components/HockyTeam";
+import People from "./components/People";
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
+      <BrowserRouter>
+        <Header />
 
-      <Footer />
+        <Routes>
+          <Route path="/harkness-pies/" element={<Home />} />
+
+          <Route path="/harkness-pies/products/" element={<HockeyTeamList />} />
+          <Route path="/harkness-pies/value/" element={<People />} />
+        </Routes>
+
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
