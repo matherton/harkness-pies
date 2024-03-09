@@ -5,8 +5,6 @@ import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import HockeyTeamList from "./components/HockyTeam";
-import People from "./components/People";
 import Main from "./components/Main";
 
 function App() {
