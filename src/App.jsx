@@ -16,9 +16,9 @@ function App() {
 
         <Routes>
           <Route path="/harkness-pies/" element={<Home />} />
-
           <Route path="/harkness-pies/products/" element={<HockeyTeamList />} />
-          <Route path="/harkness-pies/value/" element={<People />} />
+          <Route path="/harkness-pies/values/" element={<People />} />
+          <Route path="/harkness-pies/about/" element={<People />} />
         </Routes>
 
         <Footer />

@@ -23,9 +23,11 @@ const ToggleNav = () => {
             <Link to="/harkness-pies/products">Products</Link>
           </li>
           <li>
-            <Link to="/harkness-pies/value">Values</Link>
+            <Link to="/harkness-pies/values">Values</Link>
           </li>
-          <li>About</li>
+          <li>
+            <Link to="/harkness-pies/about">About</Link>
+          </li>
         </ul>
       </div>
     </>
