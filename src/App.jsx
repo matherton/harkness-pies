@@ -23,8 +23,8 @@ function App() {
               <Main
                 header="[PRODUCTS]"
                 title="Everything made on the premises."
-                copy="Fresh every single day.
-                Cold pies, hot pies, pies for your hand, pies for your table. Hot-water crusts, luscious fillings. All the meats, vegan too.
+                copy="Fresh every single day."
+                copy2="Cold pies, hot pies, pies for your hand, pies for your table. Hot-water crusts, luscious fillings. All the meats, vegan too.
                 And don't forget the gluten-free brownies."
               />
             }
@@ -32,10 +32,13 @@ function App() {
           <Route
             path="/harkness-pies/values/"
             element={
-              <People
-                name="Toby"
-                email="toby@insightinternet.co.uk"
-                image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              <Main
+                reverse
+                header="[VALUES]"
+                title="Values matter."
+                copy="Because the right values make things taste better."
+                copy2="We support local farmers and artisan suppliers – minimising food miles, keeping things fresh.
+                Organic beef and lamb from The Free Company in Balerno. Outdoor-reared pork from Dalkeith. Organic chicken from down the road in Biggar."
               />
             }
           />
@@ -44,9 +47,10 @@ function App() {
             element={
               <Main
                 header="[ABOUT]"
-                title="About"
-                copy="Hi, I'm Patrick Harkness. Trained as a butcher and worked in
-                  Vancouver for 10 years, relocated to Edinburgh 2017.
+                title="Hi, I'm Patrick Harkness."
+                copy="Trained as a butcher and worked in
+                  Vancouver for 10 years, relocated to Edinburgh 2017."
+                copy2="
                   Everything we do at Harkness starts with the highest quality
                   produce, no skimping, no artificial gunk. That's what we
                   believe in. Next time you're passing, pop in the shop and say
