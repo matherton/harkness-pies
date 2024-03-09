@@ -16,7 +16,7 @@ const ToggleNav = () => {
       <div
         className={`${
           isOpen ? "max-h-screen" : "max-h-0"
-        } transition-all ease-in-out duration-500 overflow-hidden block absolute top-[120px] z-50`}
+        } transition-all ease-in-out duration-500 overflow-hidden block absolute top-[120px] z-50 border-b-2 border-l-2 border-r-2 border-gray-200`}
       >
         <ul className="bg-white pl-5 text-black" style={{ width: "135px" }}>
           <li>
