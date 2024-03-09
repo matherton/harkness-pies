@@ -20,13 +20,28 @@ const ToggleNav = () => {
       >
         <ul className="bg-white pl-5 pr-5 text-black border-b-2 border-l-2 border-r-2 border-gray-200">
           <li>
-            <Link to="/harkness-pies/products">Products</Link>
+            <Link
+              to="/harkness-pies/products"
+              className="no-underline hover:underline"
+            >
+              Products
+            </Link>
           </li>
           <li>
-            <Link to="/harkness-pies/values">Values</Link>
+            <Link
+              to="/harkness-pies/values"
+              className="no-underline hover:underline"
+            >
+              Values
+            </Link>
           </li>
           <li>
-            <Link to="/harkness-pies/about">About</Link>
+            <Link
+              to="/harkness-pies/about"
+              className="no-underline hover:underline"
+            >
+              About
+            </Link>
           </li>
         </ul>
       </div>

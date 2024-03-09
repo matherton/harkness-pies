@@ -10,7 +10,7 @@ function Main(props) {
               <div>
                 <img src={placeholImg} alt="" />
               </div>
-              <div className="text-black border-solid border-2 border-grey-600 text-left p-5">
+              <div className="text-black bg-white border-solid border-2 border-grey-600 text-left p-5">
                 <h2>{props.header}</h2>
                 <strong>{props.title}</strong>
                 <br />
@@ -22,7 +22,7 @@ function Main(props) {
             </>
           ) : (
             <>
-              <div className="text-black border-solid border-2 border-grey-600 text-left p-5">
+              <div className="text-black bg-white border-solid border-2 border-grey-600 text-left p-5">
                 <h2>{props.header}</h2>
                 <strong>{props.title}</strong>
                 <br />"{props.copy}
