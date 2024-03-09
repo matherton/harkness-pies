@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="bg-white-100 text-gray-50 grid grid-cols-3 gap-4 pl-10 pr-10 border-b-2">
+      <header className="bg-white-100 text-gray-50 grid grid-cols-3 gap-4 pl-2 pr-2 border-b-2 height-130">
         <section className="flex-1">
           <ToggleNav />
         </section>
@@ -15,7 +15,7 @@ export default function Header() {
           <h1 className="text-2xl lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
             <Link to="/harkness-pies/">Harkness Pies</Link>
             <br />
-            <sup className="text-xs">
+            <sup className="text-sm hidden md:block">
               <span>organic</span> <span>outdoor-reared</span>
               <span>hot-water crust</span> <span>all handmade</span>
             </sup>

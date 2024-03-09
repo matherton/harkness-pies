@@ -11,14 +11,17 @@ const ToggleNav = () => {
         src={Pie}
         alt="Click here to open navigation menu"
         onClick={() => setIsOpen(!isOpen)}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "124px", height: "110px" }}
       />
       <div
         className={`${
           isOpen ? "max-h-screen" : "max-h-0"
-        } transition-all ease-in-out duration-500 overflow-hidden block absolute top-[120px] z-50 border-b-2 border-l-2 border-r-2 border-gray-200`}
+        } transition-all ease-in-out duration-500 overflow-hidden block absolute top-[110px] z-50 `}
       >
-        <ul className="bg-white pl-5 text-black" style={{ width: "135px" }}>
+        <ul
+          className="bg-white pl-5 text-black border-b-2 border-l-2 border-r-2 border-gray-200"
+          style={{ width: "135px" }}
+        >
           <li>
             <Link to="/harkness-pies/products">Products</Link>
           </li>
