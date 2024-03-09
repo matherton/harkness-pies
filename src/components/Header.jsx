@@ -12,10 +12,10 @@ export default function Header() {
         </section>
 
         <section className="flex-grow">
-          <h1 className="text-2xl lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
+          <h1 className="text-2xl mt-5 lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
             <Link to="/harkness-pies/">Harkness Pies</Link>
             <br />
-            <sup className="text-sm hidden md:block">
+            <sup className="text-sm hidden sm:block ">
               <span>organic</span> <span>outdoor-reared</span>
               <span>hot-water crust</span> <span>all handmade</span>
             </sup>
