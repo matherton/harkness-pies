@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="bg-slate-50 grid grid-cols-3 gap-4 pl-10 pr-10">
-        <section className="text-white flex-1">
+      <header className="bg-white-100 text-gray-50 grid grid-cols-3 gap-4 pl-10 pr-10">
+        <section className="flex-1">
           <ToggleNav />
         </section>
 
