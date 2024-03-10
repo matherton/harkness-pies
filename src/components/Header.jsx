@@ -1,5 +1,3 @@
-import React from "react";
-
 import Insta from "../assets/insta-icon.svg";
 import ToggleNav from "./Toggle";
 import { Link } from "react-router-dom";

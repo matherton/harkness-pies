@@ -1,5 +1,3 @@
-import React from "react";
-
 function Home() {
   return (
     <div className="relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 px-4 sm:px-1 lg:px-8">
