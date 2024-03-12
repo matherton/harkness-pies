@@ -25,9 +25,9 @@ function Main(props) {
             <>
               <div className="text-black bg-white border-solid border-2 border-grey-600 text-left p-5">
                 <h2>{props.header}</h2>
-                <strong>{props.title}</strong>
+                &quot;<strong>{props.title}</strong>
                 <br />
-                &quot;{props.copy}
+                {props.copy}
                 <br />
                 <br />
                 {props.copy2}&quot;
