@@ -10,7 +10,10 @@ export default function Header() {
         </section>
 
         <section className="flex-grow">
-          <h1 className="text-2xl mt-5 lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl">
+          <h1
+            className="text-2xl mt-5 lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl"
+            style={{ margin: "auto" }}
+          >
             <Link to="/harkness-pies/">Harkness Pies</Link>
             <br />
             <sup className="text-sm hidden sm:block ">
