@@ -11,11 +11,11 @@ export default function Header() {
         </section>
 
         <section className="flex-grow">
-          <Link to="/harkness-pies/">
+          <Link to="/harkness-pies/" className="mx-auto">
             <img
               src={logo}
               alt="Harkness Pies organic outdoor reared hot-water crust all handmade"
-              className="mx-auto"
+              className="pt-1 pb-1"
               width="350px"
               height="auto"
             />

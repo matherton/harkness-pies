@@ -7,6 +7,17 @@ function Home() {
           golden crust pies, other products, shop exterior, Raeburn Place
           identity, shop interior with customers, Patrick and other staff making
           pies, a lot of smiling please
+          <iframe
+            className="w-full mx-auto"
+            width="760"
+            height="515"
+            src="https://www.youtube.com/embed/lkyx36LYM3U?si=YEG8KFbb7AS70NWS"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
         <div>
           <button className="text-white bg-blue-900 hover:bg-blue-700 hover:text-white rounded p-1">
