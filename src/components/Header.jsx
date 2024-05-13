@@ -1,6 +1,7 @@
 import Insta from "../assets/insta-icon.svg";
 import ToggleNav from "./Toggle";
 import { Link } from "react-router-dom";
+import logo from "../assets/AI-HK-logo.png";
 export default function Header() {
   return (
     <>
@@ -10,7 +11,16 @@ export default function Header() {
         </section>
 
         <section className="flex-grow">
-          <h1
+          <Link to="/harkness-pies/">
+            <img
+              src={logo}
+              alt="Harkness Pies organic outdoor reared hot-water crust all handmade"
+              className="mx-auto"
+              width="350px"
+              height="auto"
+            />
+          </Link>
+          {/* <h1
             className="text-2xl mt-5 lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl"
             style={{ margin: "auto" }}
           >
@@ -20,7 +30,7 @@ export default function Header() {
               <span>organic</span> <span>outdoor-reared</span>
               <span>hot-water crust</span> <span>all handmade</span>
             </sup>
-          </h1>
+          </h1> */}
         </section>
 
         <section className="text-white flex-1">
