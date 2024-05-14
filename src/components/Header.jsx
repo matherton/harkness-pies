@@ -15,7 +15,7 @@ export default function Header() {
             <img
               src={logo}
               alt="Harkness Pies organic outdoor reared hot-water crust all handmade"
-              className="pt-1 pb-1"
+              className="pt-1 pb-1 title"
               width="350px"
               height="auto"
             />
