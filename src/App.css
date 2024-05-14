@@ -16,3 +16,26 @@ h1 sup span {
   margin-top: -1rem;
   min-width: 130px;
 }
+
+.responsive-embed {
+  @apply w-6/12 mx-auto;
+  @apply relative;
+}
+
+.responsive-embed iframe {
+  @apply w-full h-full;
+  @apply border-none;
+  @apply rounded;
+}
+
+@media (max-width: 768px) {
+  .responsive-embed {
+    @apply max-w-sm;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-embed {
+    @apply max-w-xs;
+  }
+}

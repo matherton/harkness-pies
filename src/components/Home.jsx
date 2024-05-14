@@ -1,3 +1,4 @@
+import video from "../assets/AI-Bakery-Shop-Promotion-Video.mp4/";
 function Home() {
   return (
     <div className="relative flex flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12 px-4 sm:px-1 lg:px-8">
@@ -7,7 +8,7 @@ function Home() {
           golden crust pies, other products, shop exterior, Raeburn Place
           identity, shop interior with customers, Patrick and other staff making
           pies, a lot of smiling please
-          <iframe
+          {/* <iframe
             className="w-full mx-auto"
             width="760"
             height="515"
@@ -17,7 +18,12 @@ function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
-          ></iframe>
+          ></iframe> */}
+          <div className="responsive-embed">
+            <video src={video} controls>
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
         <div>
           <button className="text-white bg-blue-900 hover:bg-blue-700 hover:text-white rounded p-1">
