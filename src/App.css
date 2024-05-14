@@ -17,6 +17,7 @@ h1 sup span {
   min-width: 130px;
 }
 
+<<<<<<< Updated upstream
 .responsive-embed {
   @apply w-6/12 mx-auto;
   @apply relative;
@@ -38,4 +39,8 @@ h1 sup span {
   .responsive-embed {
     @apply max-w-xs;
   }
+=======
+img.title {
+  max-width: 88%;
+>>>>>>> Stashed changes
 }
