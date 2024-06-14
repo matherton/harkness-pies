@@ -11,6 +11,7 @@ export default function Header() {
         </section>
 
         <section className="flex-grow">
+          {/* 
           <Link to="/harkness-pies/" className="mx-auto">
             <img
               src={logo}
@@ -19,8 +20,8 @@ export default function Header() {
               width="350px"
               height="auto"
             />
-          </Link>
-          {/* <h1
+          </Link> */}
+          <h1
             className="text-2xl mt-5 lg:text-3xl xl:text-6xl text-center font-bold text-gray-900 min-w-xl"
             style={{ margin: "auto" }}
           >
@@ -30,7 +31,7 @@ export default function Header() {
               <span>organic</span> <span>outdoor-reared</span>
               <span>hot-water crust</span> <span>all handmade</span>
             </sup>
-          </h1> */}
+          </h1>
         </section>
 
         <section className="text-white flex-1">

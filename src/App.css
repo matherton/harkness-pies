@@ -17,10 +17,10 @@ h1 sup span {
   min-width: 130px;
 }
 
-.responsive-embed {
+/*.responsive-embed {
   @apply w-6/12 mx-auto;
   @apply relative;
-}
+} */
 
 .responsive-embed iframe {
   @apply w-full h-full;
