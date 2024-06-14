@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import placeholImg from "../assets/smiling-co-workers-looking-camera-portrait-working-coffee-shop-56794455.jpg";
-import aiimage from "../assets/butcher-with-pies.png";
+//import aiimage from "../assets/butcher-with-pies.png";
 
 function Main(props) {
   return (
@@ -10,7 +10,7 @@ function Main(props) {
           {props.reverse ? (
             <>
               <div>
-                <img src={aiimage} alt="" />
+                <img src={placeholImg} alt="" />
               </div>
               <div className="text-black bg-white border-solid border-2 border-grey-600 text-left p-5">
                 <h2>{props.header}</h2>
