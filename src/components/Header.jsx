@@ -35,13 +35,13 @@ export default function Header() {
         </section>
 
         <section className="text-white flex-1">
-          <img
-            src={Insta}
-            alt="Istagram icon"
-            width="110px"
-            height="auto"
+          <a
+            href="https://www.instagram.com/harknesspies/"
             style={{ marginLeft: "auto" }}
-          />
+            target="_blank"
+          >
+            <img src={Insta} alt="Istagram icon" width="110px" height="auto" />
+          </a>
         </section>
       </header>
     </>
